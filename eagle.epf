@@ -1,0 +1,41 @@
+[Eagle]
+Version="09 03 00"
+Platform="Linux"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:105"
+UsedLibraryUrn="urn:adsk.eagle:library:348"
+UsedLibraryUrn="urn:adsk.eagle:library:371"
+UsedLibraryUrn="urn:adsk.eagle:library:376"
+UsedLibraryUrn="urn:adsk.eagle:library:377"
+UsedLibraryUrn="urn:adsk.eagle:library:380"
+UsedLibraryUrn="urn:adsk.eagle:library:409"
+UsedLibraryUrn="urn:adsk.eagle:library:513"
+UsedLibraryUrn="urn:adsk.eagle:library:11396253"
+UsedLibrary="/home/patricknaughton01/EAGLE/libraries/adafruit.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/libraries/microusb.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/atmega32u4/atmega32u4.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/atmega32u4/22 ohm resistor.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/atmega32u4/1ufcap.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/attiny85.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/nchannel.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/Nichia 219c.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/10k.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/opamp.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/3_3reg.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/GRM31CR60J227ME11L.lbr"
+UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/bat_conn.lbr"
+UsedLibrary="transistors.lbr"
+UsedLibrary="leds.lbr"
+UsedLibrary="nrf24l01.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"

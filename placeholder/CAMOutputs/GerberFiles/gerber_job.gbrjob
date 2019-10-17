@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-09-28T20:02:40Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "placeholder"
+        },
+        "Owner": "Patrick Naughton <patrickrnaughton@wustl.edu>",
+        "Size": {
+            "X": 332,
+            "Y": 7
+        }
+    }
+}
