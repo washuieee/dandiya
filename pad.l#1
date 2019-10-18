@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,31 +73,26 @@
 </layers>
 <library>
 <packages>
+<package name="PAD">
+<smd name="1" x="0" y="0" dx="6" dy="6" layer="1"/>
+</package>
 </packages>
 <symbols>
-<symbol name="LED">
-<polygon width="0.254" layer="94">
-<vertex x="0" y="0"/>
-<vertex x="5.08" y="5.08"/>
-<vertex x="0" y="10.16"/>
-</polygon>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="3.048" y1="9.144" x2="5.588" y2="11.684" width="0.254" layer="94"/>
-<wire x1="5.588" y1="11.684" x2="5.588" y2="10.922" width="0.254" layer="94"/>
-<wire x1="4.826" y1="11.684" x2="5.588" y2="11.684" width="0.254" layer="94"/>
-<wire x1="2.032" y1="10.16" x2="4.572" y2="12.7" width="0.254" layer="94"/>
-<wire x1="4.572" y1="12.7" x2="4.572" y2="11.938" width="0.254" layer="94"/>
-<wire x1="3.81" y1="12.7" x2="4.572" y2="12.7" width="0.254" layer="94"/>
-<pin name="ANODE" x="-5.08" y="5.08" visible="off" length="middle"/>
-<pin name="CATHODE" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
+<symbol name="PAD">
+<pin name="P$1" x="0" y="0" length="middle"/>
+<rectangle x1="5.08" y1="-5.08" x2="15.24" y2="5.08" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NVSLE21AT">
+<deviceset name="PAD" prefix="P">
 <gates>
+<gate name="A" symbol="PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="PAD">
+<connects>
+<connect gate="A" pin="P$1" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

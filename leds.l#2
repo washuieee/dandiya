@@ -105,7 +105,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NVSLE21AT">
+<deviceset name="NVSLE21AT" prefix="D">
 <gates>
 <gate name="G$1" symbol="LED" x="-5.08" y="-5.08"/>
 </gates>
