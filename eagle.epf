@@ -31,6 +31,7 @@ UsedLibrary="/home/patricknaughton01/EAGLE/projects/Flashlight 1/bat_conn.lbr"
 UsedLibrary="transistors.lbr"
 UsedLibrary="leds.lbr"
 UsedLibrary="nrf24l01.lbr"
+UsedLibrary="pad.lbr"
 
 [Win_1]
 Type="Control Panel"

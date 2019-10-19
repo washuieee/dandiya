@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-19T03:25:24Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "topboard"
+        },
+        "Owner": "Patrick Naughton <patrickrnaughton@wustl.edu>",
+        "Size": {
+            "X": 8,
+            "Y": 25.4
+        }
+    }
+}

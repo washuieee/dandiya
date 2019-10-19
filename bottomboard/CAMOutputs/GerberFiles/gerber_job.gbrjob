@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-19T03:26:30Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.99,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "bottomboard"
+        },
+        "Owner": "Patrick Naughton <patrickrnaughton@wustl.edu>",
+        "Size": {
+            "X": 12.492,
+            "Y": 76.2
+        }
+    }
+}

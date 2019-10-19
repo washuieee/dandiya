@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-19T03:27:11Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.99,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "middleboard"
+        },
+        "Owner": "Patrick Naughton <patrickrnaughton@wustl.edu>",
+        "Size": {
+            "X": 8,
+            "Y": 76.2
+        }
+    }
+}
