@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -104,6 +104,28 @@
 </package>
 </packages>
 <symbols>
+<symbol name="NRF24L01">
+<wire x1="0" y1="55.88" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="55.88" width="0.254" layer="94"/>
+<wire x1="20.32" y1="55.88" x2="0" y2="55.88" width="0.254" layer="94"/>
+<pin name="CE" x="-5.08" y="50.8" length="middle"/>
+<pin name="CSN" x="-5.08" y="45.72" length="middle"/>
+<pin name="SCK" x="-5.08" y="40.64" length="middle"/>
+<pin name="MOSI" x="-5.08" y="35.56" length="middle"/>
+<pin name="MISO" x="-5.08" y="30.48" length="middle"/>
+<pin name="IRQ" x="-5.08" y="25.4" length="middle"/>
+<pin name="VDD" x="-5.08" y="20.32" length="middle"/>
+<pin name="VSS" x="-5.08" y="15.24" length="middle"/>
+<pin name="XC2" x="-5.08" y="10.16" length="middle"/>
+<pin name="XC1" x="-5.08" y="5.08" length="middle"/>
+<pin name="VDD_PA" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="ANT1" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="ANT2" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="IREF" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="DVDD" x="25.4" y="45.72" length="middle" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" length="middle" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NRF24L01">
